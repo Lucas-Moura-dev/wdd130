@@ -1,0 +1,50 @@
+body {
+    
+  line-height: 1.6;
+  font-family: Arial, sans-serif;
+}
+header {
+  text-align: center;
+  background-color: rgb(43, 38, 38);
+  color: white;
+  font-size: 1.5rem;
+  padding: 10px;
+}
+main {
+    width: 400px;
+    margin: 0 auto;
+}
+h1 {
+  font-size: 20px;
+  text-align: center;
+
+}
+
+h2 {
+    border-bottom: 1px solid black;
+}
+
+img {
+  width: 100%;
+  height: auto;
+  box-shadow: #423e3e 0px 0px 30px;
+}
+section {
+  margin: 20px 0px;
+  padding: 10px;
+  font-size: .9rem;
+  background-color: rgb(165, 163    , 163);
+  border-color: 1px solid black;
+}
+section p {
+  text-align: left;
+  margin: 10px;
+}
+
+footer {
+  text-align: center;
+  font-size: 1rem;
+  background-color: rgb(43, 38, 38);
+  color: white;
+  padding: 10px;
+}
