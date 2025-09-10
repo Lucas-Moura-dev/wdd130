@@ -1,21 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
 body {
     
   line-height: 1.6;
   font-family: Arial, sans-serif;
 }
-header {
+
+header, footer {
   text-align: center;
-  background-color: rgb(43, 38, 38);
-  color: white;
-  font-size: 1.5rem;
+  background-color: #333;
+  color: #fff;
+  font-size: 2rem;
   padding: 10px;
 }
+
 main {
     width: 400px;
     margin: 0 auto;
 }
+
 h1 {
-  font-size: 20px;
+  margin: 10px;
   text-align: center;
 
 }
@@ -27,24 +35,25 @@ h2 {
 img {
   width: 100%;
   height: auto;
-  box-shadow: #423e3e 0px 0px 30px;
+  box-shadow: #333 0px 0px 30px;
 }
 section {
   margin: 20px 0px;
   padding: 10px;
-  font-size: .9rem;
-  background-color: rgb(165, 163    , 163);
-  border-color: 1px solid black;
+  font-size: 1rem;
+  background-color: #abe;
+  border: 1px solid rgb(0 0 0 / 0.1);
 }
+
 section p {
   text-align: left;
   margin: 10px;
 }
 
+ul {
+  margin: 10px 20px;
+}
+
 footer {
-  text-align: center;
   font-size: 1rem;
-  background-color: rgb(43, 38, 38);
-  color: white;
-  padding: 10px;
 }
