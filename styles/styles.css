@@ -21,7 +21,9 @@ nav a {
 }
 h1 {
   color: darkblue;
+  padding: .5rem;
 }
+
 main img {
   float: right;
   width: 150px;
@@ -64,6 +66,10 @@ footer {
   border: 1px solid rgb(87, 84, 84);
   padding: 1rem;
   margin: 1rem;
-  background-color: lightgrey;
+  background-color: rgb(224, 220, 220);
   color: darkblue;
+}
+
+.indent {
+  padding-left: 2rem;
 }
