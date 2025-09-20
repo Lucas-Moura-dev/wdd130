@@ -28,6 +28,8 @@ header, main, footer {
 h1, h2 {
     font-family: var(--font-family);
     color: var(--primary-color);
+    background-color: var(--accent2-color);
+    text-align: center;
 }
 
 nav, p, section, article {
