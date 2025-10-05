@@ -264,6 +264,17 @@ nav, p, section, article {
     align-items: center;
 }
 
+.purpose-labels {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    font-size: .8em;
+    padding: 1px;
+    margin: 1px;
+    color: var(--accent1-color);
+   
+}
+
 .options {
     display: flex;
     flex-direction: column;
@@ -276,7 +287,7 @@ nav, p, section, article {
 
 .options-field {
     vertical-align: middle;
-    margin-left: 5px;
+    margin-left: 8px;
 }
 
 .message {
