@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Down the River / Contact Us</title>
+    <meta name="description"
+        content="Contact Down the River Rafting Company for inquiries, bookings, and more information about our rafting adventures. We're here to help you plan your next river journey.">
+    <meta name="author" content="Lucas Moura">
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <link rel="stylesheet" href="styles/rafting.css">
+</head>
+
+<body>
+    <header>
+        <img src="images/z-downriver.png" alt="company logo" width="100">
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="trips.html">Trips</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+
+        </nav>
+    </header>
+    <main>
+        <div class="contact-info">
+            <h1>Down the River Rafting Company</h1>
+            <p>156-326 GA-60</p>
+            <p>McCaysville, Georgia</p>
+            <p>+1 999 999 9999</p>
+            <p>info@downtheriver.com</p>
+        </div>
+        <section class="form">
+            <div class="map">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3268.7927474705216!2d-84.37107271213686!3d34.98685569773453!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x885faea5157a3303%3A0x8ac87620f669c39d!2s156-326%20GA-60%2C%20McCaysville%2C%20GA%2030555%2C%20EUA!5e0!3m2!1spt-BR!2sbr!4v1759602044771!5m2!1spt-BR!2sbr"
+                    width="300" height="330" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+            <form class="box">
+
+                <div class="box-item">
+                    <label for="name">Name:</label>
+                    <input class="field" type="text" id="name" name="name" required>
+                </div>
+                <div class="box-item">
+                    <label for="email">Email:</label>
+                    <input class="field" type="email" id="email" name="email" required>
+                </div>
+                <div class="purpose">
+                    <label>
+                        <p>Message</p>
+                        <p>Purpose</p>
+                    </label>
+                    <div class="options">
+                        <div>
+                            <input class="options-field" type="radio" id="inquiry" name="purpose" value="inquiry"
+                                required>
+                            <label for="inquiry">General Inquiry</label>
+                        </div>
+                        <div>
+                            <input class="options-field" type="radio" id="reservation" name="purpose"
+                                value="reservation">
+                            <label for="reservation">Reservation Question</label>
+                        </div>
+                        <div>
+                            <input class="options-field" type="radio" id="suggestion" name="purpose" value="suggestion">
+                            <label for="suggestion">Website Suggestion</label>
+                        </div>
+                    </div>
+                </div>
+                <div class="message">
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" rows="4" required></textarea>
+                </div>
+                <div class="purpose">
+                    <input class="options-field" type="checkbox" id="subscribe" name="subscribe">
+                    <label class="newsletter" for="subscribe">Please Subscribe me to the monthly newsletter</label>
+                </div>
+                <div class="box">
+                    <button type="submit">Get in Touch!</button>
+                </div>
+            </form>
+        </section>
+        <section class="team">
+            <h2>We Are Here to Serve You</h2>
+            <div class="adventure-gallery">
+                <figure>
+                    <img src="images/rafting_employee.jpg" alt="rafting guide" width="150">
+                    <figcaption class="caption">Rafting guide</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/rafting_employee_1.jpg" alt="rafting guide" width="150">
+                    <figcaption class="caption">Rafting staff</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/rafting_employee_2.jpg" alt="rafting guide" width="150">
+                    <figcaption class="caption">Rafting teacher</figcaption>
+                </figure>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy;2025 ❖ Down the River ❖ Lucas Moura</p>
+        <nav class="socialmedia">
+            <a href="https://www.facebook.com" target="_blank"><img src="images/facebook.svg" alt="Facebook Profile"
+                    width="100"></a>
+            <a href="https://www.instagram.com" target="_blank"><img src="images/instagram.svg" alt="Instagram Profile"
+                    width="100"></a>
+            <a href="https://www.youtube.com" target="_blank"><img src="images/youtube.svg" alt="YouTube Profile"
+                    width="100"></a>
+
+        </nav>
+    </footer>
+</body>
+
+</html>
