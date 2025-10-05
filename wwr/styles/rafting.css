@@ -317,6 +317,7 @@ nav, p, section, article {
     margin-left: -10px;
     color: var(--accent1-color);
 }
+<<<<<<< HEAD
 
 .team {
     display: flex;
@@ -333,3 +334,5 @@ nav, p, section, article {
     background-color: rgb(0, 0, 0, 0);
     color: var(--accent1-color);
 }
+=======
+>>>>>>> 2102a021179a94f08043b06d538373a238d09b49
