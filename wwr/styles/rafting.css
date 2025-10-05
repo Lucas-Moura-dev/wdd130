@@ -264,14 +264,6 @@ nav, p, section, article {
     align-items: center;
 }
 
-.purpose p {
-    margin: 0;
-    padding: 3px;
-    font-size: .8em;
-    color: var(--accent1-color);
-    text-align: left;
-}
-
 .options {
     display: flex;
     flex-direction: column;
