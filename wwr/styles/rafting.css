@@ -4,6 +4,7 @@
     --background-color: #e5f0b560;
     --accent1-color: #013011;
     --accent2-color: #498041de;
+    --accent3-color: #385538;
     --font-family: "Times New Roman", "Georgia", serif;
     --body-font: Arial, Helvetica, sans-serif;
 }
@@ -173,9 +174,10 @@ nav, p, section, article {
     justify-content: space-between;
     padding: 0;
     text-align: center;
-    background-color: var(--accent2-color);
+    background-color: var(--accent3-color);
     font-size: .8em;
     color: var(--primary-color);
+    border-radius: 10px;
 }
 
 .hero article img {
@@ -364,7 +366,7 @@ nav, p, section, article {
 .newsletter h2 {
   font-size: 2rem;
   margin-bottom: 0.5rem;
-  background: var(--accent2-color);
+  background: var(--accent3-color);
   padding: 1rem;
   border-radius: 7px;
 }
@@ -400,11 +402,11 @@ nav, p, section, article {
   width: 220px;
 }
 
-button {
+.button-form {
   margin-top: 0.5rem;
   padding: 0.5rem 2rem;
-  background-color: var(--accent2-color);
-  color: white;
+  background-color: var(--accent3-color);
+  color: var(--primary-color);
   border: none;
   border-radius: 5px;
   font-size: 1rem;
@@ -415,7 +417,7 @@ button {
 .cta {
     text-align: center;
     padding: 2rem;
-    background: var(--accent2-color);
+    background: var(--accent3-color);
     color: var(--primary-color);
     border-radius: 10px;
     margin: 1rem 0;
@@ -425,11 +427,18 @@ button {
     font-size: 2rem;
     margin-bottom: 0.5rem;
     background: none;
+    color: var(--primary-color);
+    font-weight: bold;
+}
+
+.cta p {
+    color: var(--primary-color);
+    font-weight: bold;
 }
 
 .button {
     background: var(--primary-color);
-    color: var(--accent2-color);
+    color: var(--accent1-color);
     border: none;
     padding: 0.75rem 1.5rem;
     font-size: 1rem;
@@ -468,8 +477,8 @@ button {
 }
 
 .trip-info h2 {
-    color: var(--primary);
-    background: var(--accent2-color);
+    color: var(--primary-color);
+    background: var(--accent3-color);
     margin: 1rem 0;
     padding: 1rem;
     font-size: 1.5rem;
@@ -482,7 +491,7 @@ button {
 
 .trips-table h2 {
   font-size: 1.5em;
-  background: var(--accent2-color);
+  background: var(--accent3-color);
   color: var(--primary-color);
   text-align: center;
   border: 1px solid #ccc;
@@ -510,7 +519,7 @@ button {
 }
 
 .table-header {
-  background-color: var(--accent2-color);
+  background-color: var(--accent3-color);
   color: var(--primary-color);
   font-weight: bold;
   text-align: left;
