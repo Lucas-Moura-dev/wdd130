@@ -26,10 +26,10 @@
     </header>
 
     <main>
-        <section class="hero">
-            <img src="images/hero_image_home.jpg" alt="Rafting Adventure" class="hero-image">
-            <h1 class="hero-text">Adventure Awaits on Every Wave</h1>
-        </section>
+        <div class="hero">
+            <img class="hero-image" src="images/hero_image_home.jpg" alt="Rafting Adventure">
+            <h1>Adventure Awaits on Every Wave</h1>
+        </div>
 
         <section class="cta">
             <h2>Ready for Your Next Adventure?</h2>
@@ -38,40 +38,52 @@
             <a href="trips.html" class="button">View Our Trips</a>
         </section>
 
+        <section class="trip-descriptions">
+            <div class="trip-card">
+                <img src="images/rafting_3.jpg" alt="Rafting group enjoying" />
+                <div class="trip-info">
+                    <h3>Our Mission</h3>
+                    <p>At Down the River, our mission is to provide safe, fun, and memorable rafting experiences for
+                        adventurers of all levels.</p>
+                </div>
+            </div>
+            <div class="trip-card">
+                <img src="images/rafting_river.jpg" alt="Beautiful river nature" />
+                <div class="trip-info">
+                    <h3>Explore Nature</h3>
+                    <p>Our guided trips take you through breathtaking natural landscapes — a perfect mix of excitement
+                        and
+                        tranquility.</p>
+                </div>
+            </div>
+            <div class="trip-card">
+                <img src="images/rafting_5.jpg" alt="Rafting team working together" />
+                <div class="trip-info">
+                    <h3>Team Spirit</h3>
+                    <p>Rafting is all about teamwork. Strengthen your bonds and create lasting memories with friends and
+                        family on the river.</p>
+                </div>
+            </div>
+        </section>
+
         <section class="newsletter">
             <h2>Subscribe to Our Newsletter</h2>
             <p>Stay updated with new adventures, discounts, and special events!</p>
-            <form action="#" method="post">
-                <label for="name">Name:</label>
-                <input type="text" id="name" name="name" required>
+            <form class="box-newsletter">
+                <div class="box-index">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
 
-                <label for="email">Email:</label>
-                <input type="email" id="email" name="email" required>
+                <div class="box-index">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
 
                 <button type="submit">Sign Up</button>
             </form>
         </section>
 
-        <section class="about-grid">
-            <div class="grid-item">
-                <img src="images/rafting-fun.jpg" alt="Rafting group enjoying" />
-                <h3>Our Mission</h3>
-                <p>At Down the River, our mission is to provide safe, fun, and memorable rafting experiences for
-                    adventurers of all levels.</p>
-            </div>
-            <div class="grid-item">
-                <img src="images/rafting-nature.jpg" alt="Beautiful river nature" />
-                <h3>Explore Nature</h3>
-                <p>Our guided trips take you through breathtaking natural landscapes — a perfect mix of excitement and
-                    tranquility.</p>
-            </div>
-            <div class="grid-item">
-                <img src="images/rafting-team.jpg" alt="Rafting team working together" />
-                <h3>Team Spirit</h3>
-                <p>Rafting is all about teamwork. Strengthen your bonds and create lasting memories with friends and
-                    family on the river.</p>
-            </div>
-        </section>
     </main>
 
     <footer>
